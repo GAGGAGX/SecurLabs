@@ -4,12 +4,20 @@
 
 
 // polynom (8, 4, 3, 2, 0)
-// reg cnt = 8
-// bits position 4, 3, 2, 0
+//const size_t bitsCnt = 8;
+//std::bitset<bitsCnt>  reg;
+//std::vector<int> bitsPositions{ 4, 3, 2, 0 };
 
-const size_t bitsCnt = 8;
+// (59, 6, 5, 4, 3, 1, 0)
+const size_t bitsCnt = 59;
 std::bitset<bitsCnt>  reg;
-std::vector<int> bitsPositions{ 4, 3, 2, 0 };
+std::vector<int> bitsPositions{ 6, 5, 4, 3, 1, 0 };
+
+// (64, 4, 3, 1, 0)
+//const size_t bitsCnt = 64;
+//std::bitset<bitsCnt>  reg;
+//std::vector<int> bitsPositions{ 4, 3, 1, 0 };
+
 
 void findCodeKey() {
 	bool xorValue = false;
